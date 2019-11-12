@@ -1,0 +1,38 @@
+/* .center{
+    
+} */
+.input {
+  width: 30%;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main-header {
+  position: relative;
+  max-height: 100px;
+  z-index: 1030;
+
+  background-color: #84121c;
+}
+
+.header-container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.image {
+  margin: 25px;
+}
+.checkbox {
+  margin-bottom: 30px;
+}
+.table {
+  margin-bottom: 30;
+}
