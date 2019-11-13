@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Result from "./components/Result";
 import Login from "./components/Login";
 import "bootstrap/dist/css/bootstrap.min.css";
+import EditTable from "./components/EditTable";
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
         <Switch>
           <Route path="/" exact component={Login} />
           <Route path="/result" component={Result} />
+          <Route path="/edit" component={EditTable} />
         </Switch>
       </div>
     </Router>
